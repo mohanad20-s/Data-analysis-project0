@@ -1,14 +1,14 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 
-# توليد البيانات العشوائية
+
 data = {'day': ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'],
         'visits': [100, 120, 80, 90, 110, 95, 115]}
 
 # تحويل البيانات إلى DataFrame
 df = pd.DataFrame(data)
 
-# رسم البيانات
+
 plt.plot(df['day'], df['visits'], marker='o')
 plt.xlabel('Day')
 plt.ylabel('Visits')
