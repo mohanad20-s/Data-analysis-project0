@@ -2,7 +2,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 
-data = {'day': ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'],
+data = {'day': ['Saturday', 'Sunday', 'Monday', 'Tuesday', 'wednesday', 'thursday', 'friday'],
         'visits': [100, 120, 80, 90, 110, 95, 115]}
 
 # تحويل البيانات إلى DataFrame
